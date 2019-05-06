@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/local_services_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/local_services"
+        android:layout_marginStart="@dimen/margin_left_10"
+        android:textSize="@dimen/text_size_12_20_28"
+        android:layout_marginBottom="@dimen/margin_bottom_2"
+        android:layout_marginTop="@dimen/margin_top_2"/>
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/hospitals_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/divider7"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:text="@string/Hospitals"
+        android:textSize="@dimen/text_size_16_24_32"
+        android:layout_marginStart="@dimen/margin_left_10"
+        android:textColor="@color/md_black_1000"
+        android:textStyle="bold"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/divider7"
+        android:layout_marginEnd="@dimen/margin_right_10"
+        android:layout_marginTop="@dimen/margin_top_5"/>
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:layout_below="@+id/hospitals_tv"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/fire_departments_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/divider8"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:text="@string/fire_departments"
+        android:textSize="@dimen/text_size_16_24_32"
+        android:layout_marginStart="@dimen/margin_left_10"
+        android:textColor="@color/md_black_1000"
+        android:textStyle="bold"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/divider8"
+        android:layout_marginEnd="@dimen/margin_right_10"
+        android:layout_marginTop="@dimen/margin_top_5"/>
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:layout_below="@+id/fire_departments_tv"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/police_stations_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/divider9"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:text="@string/police_stations"
+        android:textSize="@dimen/text_size_16_24_32"
+        android:layout_marginStart="@dimen/margin_left_10"
+        android:textColor="@color/md_black_1000"
+        android:textStyle="bold"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/divider9"
+        android:layout_marginEnd="@dimen/margin_right_10"
+        android:layout_marginTop="@dimen/margin_top_5"/>
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:layout_below="@+id/police_stations_tv"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/crime_offenders_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_offenders"
+        android:layout_marginStart="@dimen/margin_left_10"
+        android:textSize="@dimen/text_size_12_20_28"
+        android:layout_marginBottom="@dimen/margin_bottom_2"
+        android:layout_marginTop="@dimen/margin_top_2"
+        android:layout_below="@+id/divider10"/>
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:background="?android:attr/listDivider"
+        android:layout_below="@+id/crime_offenders_tv"/>
+
+    <TextView
+        android:id="@+id/sex_offenders_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/divider11"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:text="@string/sex_offenders"
+        android:textSize="@dimen/text_size_16_24_32"
+        android:layout_marginStart="@dimen/margin_left_10"
+        android:textColor="@color/md_black_1000"
+        android:textStyle="bold"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/divider11"
+        android:layout_marginEnd="@dimen/margin_right_10"
+        android:layout_marginTop="@dimen/margin_top_5"/>
+
+    <View
+        android:id="@+id/divider12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:layout_below="@+id/sex_offenders_tv"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/crime_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/divider12"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:text="@string/crime"
+        android:textSize="@dimen/text_size_16_24_32"
+        android:layout_marginStart="@dimen/margin_left_10"
+        android:textColor="@color/md_black_1000"
+        android:textStyle="bold"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/divider12"
+        android:layout_marginEnd="@dimen/margin_right_10"
+        android:layout_marginTop="@dimen/margin_top_5"/>
+
+    <View
+        android:id="@+id/divider13"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:layout_below="@+id/crime_tv"
+        android:background="?android:attr/listDivider" />
+
+
+
+
+</RelativeLayout>

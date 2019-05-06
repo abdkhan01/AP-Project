@@ -1,0 +1,100 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Text sizes-->
+    <!--https://learnui.design/blog/android-material-design-font-size-guidelines.html-->
+    <dimen name="text_size_10_18_26">10sp</dimen>
+    <dimen name="text_size_12_20_28">12sp</dimen>
+    <dimen name="text_size_14_22_30">14sp</dimen>
+    <dimen name="text_size_15_23_31">15sp</dimen>
+    <dimen name="text_size_16_24_32">16sp</dimen>
+    <dimen name="text_size_17_25_33">17sp</dimen>
+    <dimen name="text_size_18_26_34">18sp</dimen>
+    <dimen name="text_size_19_27_35">19sp</dimen>
+    <dimen name="text_size_20_28_36">20sp</dimen>
+    <dimen name="text_size_21_29_37">21sp</dimen>
+    <dimen name="text_size_22_30_38">22sp</dimen>
+    <dimen name="text_size_23_31_39">23sp</dimen>
+    <dimen name="text_size_24_32_40">24sp</dimen>
+
+    <!--Activity margins-->
+    <dimen name="screen_right_left_margin">16dp</dimen>
+
+    <!--Button padding-->
+    <dimen name="button_padding">20dp</dimen>
+
+    <!--Profile Circle Image-->
+    <dimen name="circle_image_height_30">30dp</dimen>
+    <dimen name="circle_image_width_30">30dp</dimen>
+    <dimen name="circle_image_height_25">25dp</dimen>
+    <dimen name="circle_image_width_25">25dp</dimen>
+    <dimen name="circle_image_height_40">40dp</dimen>
+    <dimen name="circle_image_width_40">40dp</dimen>
+    <dimen name="circle_image_height_60">60dp</dimen>
+    <dimen name="circle_image_width_60">60dp</dimen>
+    <dimen name="circle_image_margin_left_5">5dp</dimen>
+    <dimen name="circle_image_margin_right_5">5dp</dimen>
+    <dimen name="circle_image_margin_bottom_5">5dp</dimen>
+    <dimen name="circle_image_margin_top_5">5dp</dimen>
+    <dimen name="circle_image_margin_left_10">10dp</dimen>
+    <dimen name="circle_image_margin_right_10">10dp</dimen>
+    <dimen name="circle_image_margin_bottom_10">10dp</dimen>
+    <dimen name="circle_image_margin_top_10">10dp</dimen>
+
+    <!--Margins-->
+    <dimen name="margin_top_2">2dp</dimen>
+    <dimen name="margin_bottom_2">2dp</dimen>
+    <dimen name="margin_right_2">2dp</dimen>
+    <dimen name="margin_left_2">2dp</dimen>
+    <dimen name="margin_top_3">3dp</dimen>
+    <dimen name="margin_bottom_3">3dp</dimen>
+    <dimen name="margin_right_3">3dp</dimen>
+    <dimen name="margin_left_3">3dp</dimen>
+    <dimen name="margin_top_4">4dp</dimen>
+    <dimen name="margin_bottom_4">4dp</dimen>
+    <dimen name="margin_right_4">4dp</dimen>
+    <dimen name="margin_left_4">4dp</dimen>
+    <dimen name="margin_top_5">5dp</dimen>
+    <dimen name="margin_bottom_5">5dp</dimen>
+    <dimen name="margin_right_5">5dp</dimen>
+    <dimen name="margin_left_5">5dp</dimen>
+    <dimen name="margin_top_10">10dp</dimen>
+    <dimen name="margin_bottom_10">10dp</dimen>
+    <dimen name="margin_right_10">10dp</dimen>
+    <dimen name="margin_left_10">10dp</dimen>
+    <dimen name="margin_top_12">12dp</dimen>
+    <dimen name="margin_bottom_12">12dp</dimen>
+    <dimen name="margin_right_12">12dp</dimen>
+    <dimen name="margin_left_12">12dp</dimen>
+    <dimen name="margin_top_16">16dp</dimen>
+    <dimen name="margin_bottom_16">16dp</dimen>
+    <dimen name="margin_right_16">16dp</dimen>
+    <dimen name="margin_left_16">16dp</dimen>
+    <dimen name="margin_top_32">32dp</dimen>
+    <dimen name="margin_bottom_32">32dp</dimen>
+    <dimen name="margin_right_32">32dp</dimen>
+    <dimen name="margin_left_32">32dp</dimen>
+
+    <!--Profile Circle Image height width-->
+    <dimen name="image_margin_left_5">5dp</dimen>
+    <dimen name="image_margin_right_5">5dp</dimen>
+    <dimen name="image_margin_bottom_5">5dp</dimen>
+    <dimen name="image_margin_top_5">5dp</dimen>
+    <dimen name="image_margin_left_10">10dp</dimen>
+    <dimen name="image_margin_right_10">10dp</dimen>
+    <dimen name="image_margin_bottom_10">10dp</dimen>
+    <dimen name="image_margin_top_10">10dp</dimen>
+    <dimen name="image_height_40">40dp</dimen>
+    <dimen name="image_width_40">40dp</dimen>
+    <dimen name="image_height_60">60dp</dimen>
+    <dimen name="image_width_60">60dp</dimen>
+
+
+
+
+
+
+
+</resources>

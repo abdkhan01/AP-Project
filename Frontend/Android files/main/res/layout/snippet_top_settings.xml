@@ -1,0 +1,60 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/circle_image_width_60"
+            android:layout_height="@dimen/circle_image_height_60"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="@dimen/circle_image_margin_left_5"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/logged_in_as"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/margin_left_5"
+            android:layout_toEndOf="@+id/profile_image"
+            android:textSize="@dimen/text_size_14_22_30"
+            android:text="@string/logged_in_as"
+            android:textColor="@color/md_grey_500"
+            android:layout_marginTop="@dimen/margin_top_10"/>
+
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/logged_in_as"
+            android:layout_below="@+id/logged_in_as"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/profile_image"
+            android:textSize="@dimen/text_size_19_27_35"
+            android:textColor="@color/md_black_1000"
+            android:layout_marginTop="@dimen/margin_top_3"
+            />
+
+        <TextView
+            android:id="@+id/profile_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/logged_in_as"
+            android:layout_below="@+id/profile_name"
+            android:layout_marginTop="@dimen/margin_top_3"
+            android:layout_toEndOf="@+id/profile_image"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_14_22_30"
+            android:textColor="@color/md_black_1000"/>
+
+
+    </RelativeLayout>
+
+
+</merge>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/caution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/delete_account_str1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/caution"
+        android:layout_marginTop="64dp"
+        android:text="@string/delete_account_str1"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/margin_left_32"
+        android:layout_marginEnd="@dimen/margin_right_32"
+        android:textColor="@color/md_black_1000"/>
+
+
+    <TextView
+        android:id="@+id/delete_account_str2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/delete_account_str2"
+        android:layout_below="@+id/delete_account_str1"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/margin_left_32"
+        android:layout_marginEnd="@dimen/margin_right_32"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/yes_continue"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/md_white_1000"
+        android:layout_marginEnd="@dimen/margin_right_16"
+        android:layout_marginStart="@dimen/margin_left_16"
+        android:layout_marginBottom="@dimen/margin_bottom_16"
+        android:textAllCaps="false"
+        />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AngelNest</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--Write error messages like this-->
+    <string name="error_something_happened">Something happened, please try again later.</string>
+    <string name="error_internet_try_again">Please connect with the internet and try again later.</string>
+    <string name="error_email_invalid">You have given invalid email address, please provide valid email address.</string>
+
+    <!--Write generic messages like this-->
+    <string name="contact_customer_support">Please talk to our customer agent for more help.</string>
+
+</resources>

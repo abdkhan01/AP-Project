@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/circle_logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:layout_marginBottom="@dimen/margin_bottom_5"/>
+
+    <TextView
+        android:id="@+id/circle_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/circle_logo"
+        android:text="@string/string"
+        android:textColor="@color/md_black_1000"
+        android:textSize="@dimen/text_size_15_23_31"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/margin_left_5"/>
+
+    <TextView
+        android:id="@+id/circle_count_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/circle_logo"
+        android:layout_toEndOf="@+id/circle_logo"
+        android:text="@string/string"
+        android:textSize="@dimen/text_size_10_18_26"
+        android:layout_marginStart="@dimen/margin_left_5"/>
+</RelativeLayout>

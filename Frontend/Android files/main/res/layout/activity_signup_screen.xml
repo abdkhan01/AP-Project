@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SignupScreenActivity">
+
+
+    <ImageView
+
+        android:id="@+id/ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="46dp"
+        android:contentDescription="ImageView"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="-146dp"
+        tools:layout_editor_absoluteY="22dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImageView"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="84dp"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Full Name..."
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ImageView" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginBottom="234dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="212dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginBottom="132dp"
+        android:backgroundTint="@color/colorAccent"
+        android:contextClickable="true"
+        android:text="SignUP" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="57dp"
+        android:text="Click here if you Already hv an acc?"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/CardView"
+        android:layout_width="138dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="56dp"
+        android:textAlignment="center"
+        app:cardCornerRadius="15dp">
+
+
+        <RelativeLayout
+            android:layout_width="146dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/cardtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_centerInParent="true"
+                android:contentDescription="Register"
+                android:text="SignIn!"
+
+                android:textSize="19dp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:drawableLeft="@drawable/ic_action_mail"
+
+        android:ems="10"
+        android:hint="User Email..."
+        android:inputType="text|textEmailAddress" />
+
+
+
+</RelativeLayout>

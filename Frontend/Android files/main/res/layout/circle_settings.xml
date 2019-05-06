@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp">
+
+        <ImageView
+            android:id="@+id/circle_logo"
+            android:layout_width="@dimen/image_width_40"
+            android:layout_height="@dimen/image_height_40"
+            android:layout_marginStart="@dimen/margin_left_10"
+            android:layout_marginTop="@dimen/margin_top_10"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/circle_logo"
+            android:layout_marginStart="@dimen/margin_left_10"
+            android:layout_marginTop="@dimen/margin_top_10"
+            android:text="@string/circle_name"
+            android:textSize="@dimen/text_size_20_28_36"
+            android:textColor="@color/md_black_1000" />
+
+        <TextView
+            android:id="@+id/admin_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/circlesettings_admin_string"
+            android:textSize="@dimen/text_size_14_22_30"
+            android:layout_marginStart="@dimen/margin_left_5"/>
+
+        <TextView
+            android:id="@+id/admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/margin_right_5"
+            android:text="@string/admin" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="98dp">
+
+        <Button
+            android:id="@+id/leave_circle_button"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorPrimary"
+            android:textSize="@dimen/text_size_14_22_30"
+            android:textColor="@color/md_white_1000"
+            android:text="@string/leave_circle"
+            android:layout_marginStart="@dimen/margin_left_16"
+            android:layout_marginEnd="@dimen/margin_right_16"
+            android:layout_marginBottom="@dimen/margin_bottom_16"/>
+
+        <TextView
+            android:id="@+id/leave_circle_string"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/leave_circle_button"
+            android:layout_alignParentStart="true"
+            android:text="@string/leave_circle_string"
+            android:textSize="@dimen/text_size_10_18_26"
+            android:gravity="center"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/circle_settings_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_left_5"
+            android:layout_marginEnd="@dimen/margin_right_5"
+            android:layout_marginBottom="64dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

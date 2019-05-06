@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/circle_logo"
+        android:layout_width="@dimen/image_width_40"
+        android:layout_height="@dimen/image_height_40"
+        android:layout_marginStart="@dimen/margin_left_10"
+        android:layout_marginTop="@dimen/margin_top_10"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/alertoption_circle_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/circle_logo"
+        android:layout_marginStart="@dimen/margin_left_10"
+        android:layout_marginTop="@dimen/margin_top_10"
+        android:text="@string/circle_name"
+        android:textSize="@dimen/text_size_20_28_36"
+        android:textColor="@color/md_black_1000" />
+
+    <TextView
+        android:id="@+id/set_alerts_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circle_logo"
+        android:layout_marginTop="@dimen/margin_top_16"
+        android:text="@string/set_alerts"
+        android:textSize="@dimen/text_size_14_22_30"
+        android:layout_marginStart="@dimen/margin_left_10"/>
+
+    <View
+        android:id="@+id/divider23"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/set_alerts_string"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/email_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider23"
+        android:layout_marginStart="@dimen/margin_left_10"
+        android:text="@string/email"
+        android:textColor="@color/md_black_1000"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/margin_right_10"
+        android:layout_below="@id/divider23" />
+    <View
+        android:id="@+id/divider24"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/email_tv"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:layout_marginEnd="@dimen/margin_right_10"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/push_notification_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider24"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:layout_marginStart="@dimen/margin_left_10"
+        android:text="@string/push_notifications"
+        android:textColor="@color/md_black_1000"
+        android:textStyle="bold"/>
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/divider24"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:layout_marginEnd="@dimen/margin_right_10" />
+
+    <View
+        android:id="@+id/divider26"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/push_notification_tv"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:background="?android:attr/listDivider" />
+
+
+</RelativeLayout>

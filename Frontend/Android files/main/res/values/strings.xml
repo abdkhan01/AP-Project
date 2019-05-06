@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">AngelNest</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--Write error messages like this-->
+    <string name="error_something_happened">Something happened, please try again later.</string>
+    <string name="error_internet_try_again">Please connect with the internet and try again later.</string>
+    <string name="error_email_invalid">You have given invalid email address, please provide valid email address.</string>
+
+    <!--Write generic messages like this-->
+    <string name="contact_customer_support">Please talk to our customer agent for more help.</string>
+
+    <!--Static Strings-->
+    <string name="logged_in_as">Logged in as:</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="mobile">Mobile</string>
+    <string name="edit_image">Edit Image</string>
+    <string name="country_code">code</string>
+    <string name="circle_name">Circle Name</string>
+    <string name="string">string</string>
+    <string name="circlesettings_admin_string">Admins can add or delete members</string>
+    <string name="admin">admin</string>
+    <string name="my_circles">My Circles</string>
+    <string name="leave_circle_string">This will not delete the circle for other members</string>
+    <string name="leave_circle">Leave This Circle</string>
+    <string name="me">Me</string>
+    <string name="circle_members">Circle Members</string>
+    <string name="delete">Delete</string>
+    <string name="local_services">Local Services</string>
+    <string name="Hospitals">Hospitals</string>
+    <string name="police_stations">Police Stations</string>
+    <string name="fire_departments">Fire Departments</string>
+    <string name="crime_offenders">Crime and Offenders</string>
+    <string name="sex_offenders">Sex Offenders</string>
+    <string name="change_password">Change Password</string>
+    <string name="restore_purchases">Restore Purchases</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="crime">Crime</string>
+    <string name="send_location_feedback">Send Location Feedback</string>
+    <string name="new_password">New Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="delete_account_str1">This will delete your entire account and remove you from all circles
+        on AngelNest!</string>
+    <string name="delete_account_str2">if you would like to leave a Circle and keep your account, go to
+        Circle Settings and leave the Circle</string>
+
+    <string name="yes_continue">Yes, Continue</string>
+    <string name="view_alerts_for">View Alerts options for:</string>
+    <string name="general_alerts">General Alerts:</string>
+    <string name="set_alerts">Set alerts for this Circle</string>
+    <string name="code">+00</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+
+</resources>

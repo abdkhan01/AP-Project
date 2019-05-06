@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/editProfile_profile_image"
+        android:layout_width="@dimen/image_width_60"
+        android:layout_height="@dimen/image_height_60"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginTop="@dimen/margin_top_16"
+        android:layout_marginStart="@dimen/margin_left_16"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/editProfile_profile_image"
+        android:layout_marginTop="5dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginStart="@dimen/margin_left_16"/>
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/divider"
+        android:text="@string/first_name"
+        android:textColor="@color/md_grey_500"
+        android:textSize="@dimen/text_size_10_18_26"
+        android:layout_marginTop="@dimen/margin_top_5"
+        android:layout_marginStart="@dimen/margin_left_16"/>
+
+    <EditText
+        android:id="@+id/first_name_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/first_name"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/md_grey_700"
+        android:textSize="@dimen/text_size_15_23_31"
+        android:layout_marginStart="@dimen/margin_left_12"/>
+
+
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/first_name_editText"
+        android:text="@string/last_name"
+        android:textColor="@color/md_grey_500"
+        android:textSize="@dimen/text_size_10_18_26"
+        android:layout_marginStart="@dimen/margin_left_16"/>
+
+
+    <EditText
+        android:id="@+id/last_name_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/last_name"
+        android:ems="10"
+
+        android:hint="@string/last_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/md_grey_700"
+        android:textSize="@dimen/text_size_15_23_31"
+        android:layout_marginStart="@dimen/margin_left_12"/>
+
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/divider"
+        android:layout_below="@+id/last_name_editText"
+        android:text="@string/email"
+        android:textColor="@color/md_grey_500"
+        android:textSize="@dimen/text_size_10_18_26" />
+
+    <EditText
+        android:id="@+id/email_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/md_grey_700"
+        android:textSize="@dimen/text_size_15_23_31"
+        android:layout_marginStart="@dimen/margin_left_12"/>
+
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/divider"
+        android:layout_below="@+id/email_editText"
+        android:text="@string/mobile"
+        android:textColor="@color/md_grey_500"
+        android:textSize="@dimen/text_size_10_18_26" />
+
+    <EditText
+        android:id="@+id/mobile_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobile"
+        android:layout_toEndOf="@id/country_code"
+        android:ems="10"
+        android:layout_marginStart="@dimen/margin_left_5"
+        android:hint="@string/mobile"
+        android:inputType="number"
+        android:textColor="@color/md_grey_700"
+        android:textSize="@dimen/text_size_15_23_31" />
+
+    <TextView
+        android:id="@+id/edit_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="39dp"
+        android:layout_toEndOf="@+id/editProfile_profile_image"
+        android:text="@string/edit_image"
+        android:layout_marginStart="@dimen/margin_left_5"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/country_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobile"
+        android:text="@string/code"
+        android:textColor="@color/md_black_1000"
+        android:textSize="@dimen/text_size_14_22_30"
+        android:textStyle="bold"
+        android:layout_alignBottom="@id/mobile_editText"
+        android:layout_marginStart="@dimen/margin_left_16"
+        android:layout_marginTop="@dimen/margin_top_16"/>
+
+</RelativeLayout>
